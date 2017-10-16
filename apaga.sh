@@ -6,4 +6,4 @@ if [ $# -eq 0 ]
     exit 1
 fi
 
-{ printf "practica\ncos\n1\n$1\n1\nyes\n\n\033\0334\n"; } | telnet pdujupiter.disca.upv.es
+{ printf "practica\ncos\n1\n$1\n2\nyes\n\n\033\0334\n"; } | telnet pdujupiter.disca.upv.es
